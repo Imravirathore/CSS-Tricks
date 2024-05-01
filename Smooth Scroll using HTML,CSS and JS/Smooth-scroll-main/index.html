@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smooth Scroll Effect</title>
+</head>
+
+<body id="my-scrollbar">
+    <section>
+        <h2>Smooth Scroll Effect 👋</h2>
+        <p>Using Html, CSS & Javascript</p>
+        <p>Visit my website :  <a href="https://ravirathore.com/" target="_blank">ravirathore.com</a> </p>
+
+    </section>
+    <section>
+        <h2>Second Page</h2>
+    </section>
+    <section>
+        <h2>Third Page</h2>
+    </section>
+    <script src="./smooth-scrollbar.js"></script>
+
+    <script>
+        let Scrollbar = window.Scrollbar;
+        const options = {
+            "damping": .06,
+            "alwaysShowTracks": true
+        }
+
+        Scrollbar.init(document.querySelector('body'), options);
+    </script>
+</body>
+
+</html>
