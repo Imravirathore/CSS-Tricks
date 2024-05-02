@@ -1,8 +1,11 @@
-# Product Color change on click
-In this example, you'll learn how marketing company fetch different images based on user chose the colour. However, this is just a simple and demo page for educational purpose. 
+# Smooth Scroll For Website 
+In this example, you can implement Smooth Scroll in your website that looks great using a JS library.
 
 ## Live Website URL
 https://smooth-scroll-css.netlify.app/
 
 
-## Demo
+## Techlogy Used Here :
+HTML5
+CSS3
+JavaScript
